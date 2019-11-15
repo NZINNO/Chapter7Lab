@@ -9,22 +9,21 @@ public class Background
   }
 
   public static void drawGrass(Graphics g){
-    g.setColor(new Color(0,128,0));
+    g.setColor(new Color(0,153,0));
     //dark green
 
-    g.fillRect(10,300,400,600);
+    g.fillRect(10,300,400,200);
   }
   public static void drawRoad(Graphics g){
-    g.setColor(new color(0,0,0));
-    g.fillRect(10,450,400,500);
+    g.setColor(new Color(102,102,102));
+    g.fillRect(10,350,400,115);
   }
   public static void drawCenterline(Graphics g){
-    g.setColor(new color(178,211,1));
-    g.fillRect(10,470,400,480);
+    g.setColor(new Color(255,255,0));
+    g.fillRect(10,395,400,15);
   }
-
   public static void drawSun(Graphics g){
-    g.setColor(178,211,1));
-    g.fillOval(350,20,50,50);
+    g.setColor(new Color(255,255,0));
+    g.fillOval(280,20,100,100);
   }
 }

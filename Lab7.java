@@ -11,6 +11,10 @@ public class Lab7 extends Applet{
     Car.drawBody(g);
     Car.drawWheels(g);
     Car.drawWindows(g);
+    Human.drawChest(g);
+    Human.drawHead(g);
+    Tree.drawLog(g);
+    Tree.drawLeaf(g);
   }
 
 }
